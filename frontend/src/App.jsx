@@ -14,7 +14,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<PublicPage />} />
-      <Route path="/admin/giris" element={<Giriş Sayfası />} />
+      <Route path="/admin/giris" element={<LoginPage />} />
       <Route
         path="/admin"
         element={
