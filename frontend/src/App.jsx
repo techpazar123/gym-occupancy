@@ -6,7 +6,7 @@ import AdminPage from './pages/AdminPage';
 
 function ProtectedRoute({ children }) {
   const { token } = useAuth();
-  if (!token) return <Navigate to="/admin/login" replace />;
+  if (!token) return<Navigate to="/admin/giris" replace />
   return children;
 }
 
